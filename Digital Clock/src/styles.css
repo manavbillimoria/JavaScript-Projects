@@ -31,10 +31,17 @@
       align-items: center;
       justify-content: center;
 }
+.container3
+{
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+}
 #time{
       font-family: 'Sometype Mono', monospace;
       font-size: 70px;
 }
+
 button 
 {
       appearance: none;
