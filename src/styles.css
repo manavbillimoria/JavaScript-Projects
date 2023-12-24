@@ -1,34 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 .grid-container{
       display: grid;
       grid-template-columns: auto auto auto auto ;
       padding: 10px 20px 10px 20px;
       grid-gap: 20px;
 }
-.heading{
-      text-align: center;
-      padding: 50px 0px 50px 0px;
-      font-family: 'Readex Pro', sans-serif;
-      
-}
-.heading > h1{
-      letter-spacing: 10px;
-}
+
 .grid-item{
       text-align: center;
       padding: 5px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Readex+Pro&family=Silkscreen&display=swap');
-
-*{
-      background-color: #D8CFC4;
+*
+{
+      background-color: rgb(247, 247, 231);;
 }
-
-
-
-
-
-
+.headingContainer{
+      display: flex;
+      align-items: center;
+      /* height: 20vh; */
+      justify-content: center;
+      margin-top: 70px;
+      margin-bottom: 50px;
+      flex-direction: column;
+}
+#heading{
+      font-family: 'Comfortaa', sans-serif;
+      letter-spacing: 10px;
+}
+#heading_small{
+      font-family: 'Comfortaa', sans-serif;
+      
+}
 .easy:hover{
       border: 2px solid rgb(4, 255, 4);
 }
